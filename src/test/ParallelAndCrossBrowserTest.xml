@@ -1,0 +1,21 @@
+<suite name = "Parallel and Cross Browser Test Suite " parallel = "tests" thread-count="2">
+
+    <test name = "In Chrome Test">
+        <parameter name ="browser" value ="chrome"></parameter>
+
+        <classes>
+            <class name = "Tests.ApplicationTests"></class>
+
+        </classes>
+    </test>
+
+
+    <test name = "In Firefox Test">
+        <parameter name ="browser" value ="firefox"></parameter>
+
+        <classes>
+            <class name = "Tests.ApplicationTests"></class>
+        </classes>
+    </test>
+
+</suite>

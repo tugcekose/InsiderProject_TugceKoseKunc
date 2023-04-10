@@ -1,0 +1,10 @@
+<suite name="ApplyJobTestSuite " >
+    <test name = "JobApplicationTest ">
+        <parameter name ="browser" value= "chrome">
+        </parameter>
+        <classes>
+            <class name="Tests.ApplicationTests"></class>
+        </classes>
+    </test>
+
+</suite>
